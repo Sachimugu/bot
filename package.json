@@ -1,18 +1,17 @@
 {
-  "name": "bot",
+  "name": "trading-risk-bot",
   "version": "1.0.0",
   "main": "bot.js",
-   "scripts": {
+  "scripts": {
     "start": "node bot.js",
-    "dev": "node bot5.js"
+    "dev": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "ccxt": "^4.5.15",
     "dotenv": "^17.2.3",
     "mongoose": "^8.19.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
